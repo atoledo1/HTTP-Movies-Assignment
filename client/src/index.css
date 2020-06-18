@@ -75,3 +75,29 @@ body {
   color: red;
   text-align: center;
 }
+.edit-button {
+  position: absolute;
+  top: 55px;
+  right: 25px;
+  width: 35px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.edit-button:hover {
+  background-color: green;
+  color: white;
+}
+.delete-button {
+  position: absolute;
+  top: 85px;
+  right: 25px;
+  width: 35px;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  background-color: lightseagreen;
+}
+.delete-button:hover {
+  background-color: green;
+  color: white;
+}
